@@ -1,0 +1,111 @@
+.logo{font-family: 'Michroma', sans-serif;
+font-size:1.4rem;
+font-weight:bold;}
+
+.navbar{padding:0 0 4.5rem;}
+
+.adjusting-navbar{font-weight: bold;
+}
+
+.container-fluid{padding:1.25% 1.25% 2.5%;}
+
+#title{background-color: #27496d;}
+
+.title-image{position:absolute;
+  right:10%;
+  width:55%;
+transform:rotate(-10deg);}
+
+#title-text{line-height: 1.5;
+color:white;
+font-weight:900;
+font-size:3rem; }
+
+
+/* features section */
+
+
+#features{padding:7% 15%;
+Position:relative;}
+/* background-color: #fff;} */
+
+.features-main{text-align: center;
+padding:4.5%;}
+
+.feature-icons{ margin-bottom: 1rem;
+  color:#00909e;
+}
+
+.feature-icons:hover {color:gold;}
+
+.feature{ font-size: 2rem;
+  font-family:  'Montserrat', sans-serif;
+}
+
+.feature-discription{
+      color:#8f8f8f;}
+
+
+/* feedback section*/
+
+#feedback{
+text-align: center;
+background-color:#142850;
+color:#fff;}
+
+.carousel-item{padding:7% 15%;}
+
+.feedback-text{font-size: 3rem;
+line-height: 1.5;}
+
+.feedback-image{border-radius: 50%;
+width:25%;
+margin:20px;}
+
+/*press section*/
+#partners{background-color:#142850;
+text-align: center;
+padding-bottom: 3%;}
+
+.partner-images{width:15%;
+margin:20px 20px 50px;}
+
+/* Conclusion section */
+
+#cta{Text-align:center;
+  background-color:#27496d;
+  padding-top: 175px ;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.conclusion{font-size: 2.5rem;
+color:#fff;
+font-weight: 900;}
+
+
+/* Footer */
+
+#footer{text-align: center;
+background-color:#fff;
+padding:80px;}
+
+.footer-link{color:black;
+padding: 7.5px;
+font-size: 70%;
+}
+
+#copyright {font-size:75%;
+padding-top:18px;
+color:grey;
+font-weight: 300;}
+
+
+@media (max-width: 990px){
+
+.container-fluid{position:relative;
+text-align:center;
+padding-bottom:115px;}
+.title-image{ width:30%;}
+}
